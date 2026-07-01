@@ -1,0 +1,82 @@
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+*.sublime-project
+*.sublime-workspace
+.env.local
+.env.*.local
+
+# Backend (PHP)
+backend/vendor/
+backend/composer.lock
+backend/.env
+backend/.env.testing
+backend/storage/
+backend/bootstrap/cache/
+backend/build/
+backend/dist/
+backend/*.log
+backend/.phpunit.result.cache
+backend/coverage/
+backend/node_modules/
+
+# Frontend (JavaScript)
+frontend/node_modules/
+frontend/.env.local
+frontend/.env.*.local
+frontend/dist/
+frontend/build/
+frontend/.cache/
+frontend/coverage/
+frontend/*.log
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/.next/
+frontend/out/
+
+# Dependencies
+node_modules/
+composer.lock
+
+# Database
+*.sqlite
+*.sqlite3
+db.sqlite3
+
+# Testing
+.coverage
+*.pyc
+.pytest_cache/
+.nyc_output/
+
+# Build artifacts
+dist/
+build/
+out/
+.parcel-cache/
+.parcel-cache
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+desktop.ini
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
+
+# Temporary files
+tmp/
+temp/
+*.tmp
